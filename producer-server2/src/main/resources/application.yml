@@ -1,10 +1,10 @@
 server:
   #端口号
-  port: 8100
+  port: 8093
 
 spring:
   application:
-    name: consumer-server
+    name: producer-server
 
 eureka:
   instance:
@@ -13,7 +13,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${eureka.instance.eureka-server-port}/eureka/
-
-feign:
-  hystrix:
-    enabled: true

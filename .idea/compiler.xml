@@ -9,6 +9,8 @@
         <module name="consumer-server" />
         <module name="eureka-server" />
         <module name="producer-server" />
+        <module name="producer-server1" />
+        <module name="producer-server2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +18,8 @@
       <module name="euerka" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="producer-server" target="1.8" />
+      <module name="producer-server1" target="1.8" />
+      <module name="producer-server2" target="1.8" />
       <module name="springcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
