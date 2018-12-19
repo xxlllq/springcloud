@@ -6,14 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="consumer-server" />
         <module name="eureka-server" />
         <module name="producer-server" />
-        <module name="producer-server1" />
-        <module name="producer-server2" />
+        <module name="zuul-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="consumer-server" target="1.8" />
       <module name="euerka" target="1.8" />
       <module name="eureka-server" target="1.8" />
@@ -21,6 +24,8 @@
       <module name="producer-server1" target="1.8" />
       <module name="producer-server2" target="1.8" />
       <module name="springcloud" target="1.8" />
+      <module name="zuul" target="1.8" />
+      <module name="zuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -9,4 +9,9 @@ public class ProducerRemoteHystrix implements ProducerRemote {
         return "Producer Server 的服务调用失败";
     }
 
+    @Override
+    public String sayHiFromClientOne(String name) {
+        return "sorry, you are fail,"+name;
+    }
+
 }

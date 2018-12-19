@@ -7,8 +7,9 @@
         <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/producer-server/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-server/pom.xml" />
-        <option value="$PROJECT_DIR$/producer-server1/pom.xml" />
-        <option value="$PROJECT_DIR$/producer-server2/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
       </list>
     </option>
   </component>

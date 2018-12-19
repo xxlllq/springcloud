@@ -7,7 +7,7 @@ eureka:
     hostname: localhost
   server:
     # 续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms）
-    eviction-interval-timer-in-ms: 5000
+    evictionIntervalTimerInMs: 5000
   client:
     # eureka.client.registerWithEureka ：表示是否将自己注册到Eureka Server，默认为true。
     # 由于当前这个应用就是Eureka Server，故而设为false
